@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            i have no knowledge about how to write in html or anything related to web design please help me aaa
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/big-chungus.ico">
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body class="darkmode">
+        <div id="page-container">
+            <div class="header">
+                <h1 class="whitetext">
+                    Extra large chungus
+                </h1>
+                <img src="images/big-chungus.png" height="100" width="700">
+            </div>
+            <div id="content-wrap">
+                <!--le funny audio-->
+                <audio id="bgm" autoplay>
+                    <source src="sounds/01 Gangnam Style (강남스타일).mp3" type="audio/mpeg">
+                </audio>
+                <div class="audiobar">
+                    <p class="whitetext">NOW PLAYING: PSY - Gangnam Style</p>
+                    <button onclick="playAudio()" type="button">Play</button>
+                    <button onclick="pauseAudio()" type="button">Pause</button>
+                    <button onclick="stopAudio()" type="button">Stop</button>
+                </div>
+                <script src="script.js"></script>
+                <h1 id="story">
+                    I doo-doo farted: a star wars story
+                </h1>
+                <!--obama??-->
+                <p class="strongred">
+                    Today I went to the <strong>toilet</strong> and then it smelled bad <br>
+                    😳😳😳😳😳😳😳😳😳😳 <br>
+                    The end
+                </p>
+                <hr>
+                <h2>
+                    Contents (make this into a table of contents please)
+                </h2>
+                <p>
+                    <a href="#story">Story</a> <br>
+                    <a href="#about">Meet the author</a> <br>
+                    <a href="#top5">Top 5's</a>
+                </p>
+                <hr>
+                <h2 id="about">
+                    Meet the author
+                </h2>
+                <p class="bluetext">
+                    Hello, my name is <b>Wilson</b>. Thank you for reading my award-winning story made for my <br>
+                    not so incredible website. I am just trying to make this website as I go through some <br>
+                    tutorial I found online for HTML. Hopefully I can spice this up with CSS and JS later, <br>
+                    but that's probably gonna take a few more lifetimes. Until then, I'll see you later! <br>
+                    Maybe review my story?
+                    <br> <br>
+
+                    Shameful plug: <br>
+                    <!-- Using links in images -->
+                    <a href="https://www.youtube.com/channel/UCscwpb6-beUir-fzc7qP3-Q"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="images/yt-icon.png" width="30" height="30">
+                    </a>
+                    <a href="https://github.com/wilsonchen02"
+                       target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-icon.png" width="30" height="30">
+                    </a>
+                </p>
+
+                <h3 id="top5">My Top 5's</h3>
+                <h4>Programming Languages</h4>
+                <ol type="1">
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>
+                        <ul style="list-style-type: circle">
+                            <li>I still have 0 knowledge about this</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Honorable Mentions</h5>
+                <ul style="list-style-type: square">
+                    <li>the number five</li>
+                </ul>
+                <hr>
+                <p>Testing image...</p> <br>
+                <img src="images/20160103-150551.jpg"
+                     style="width: 400px;" alt="Lake in Monroe, NY"> <br>
+
+                <p>They do be vibing doe</p> <br>
+
+                <div class="imageColumn">
+                    <img src="images/kirbo-gs.gif">
+                </div>
+                <br />
+                <div class="imageColumn">
+                    <img class="imageright" src="images/pusheen-gs.gif">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <hr>
+            <p>Last loaded: <span id="datetime"></span></p>
+
+            <br />
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            </script>
+
+            <button type="button"
+                    onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.
+            </button>
+            <p id="demo"></p>
+        </footer>
+
+    </body>
+
+    
+
+</html>

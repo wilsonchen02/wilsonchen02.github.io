@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+
+.header {
+    padding: 60px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    text-align: left;
+    
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+#content-wrap {
+    padding-bottom: 500px;
+}
+
+.darkmode {
+    background-color: #242222;
+    color: white;
+}
+
+.imageColumn {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+/* Sticky bar */
+.audiobar {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #34ca4d;
+}
+
+h1#story {
+    color:chartreuse;
+}
+
+.blacktext {
+    color: black;
+}
+
+.whitetext {
+    color: white;
+}
+
+.redtext {
+    color:crimson;
+}
+.bluetext {
+    color: rgb(44, 156, 156);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: cyan;
+}
+
+.strongred > strong {
+    color:red;
+}
+
+.imageright {
+    display: flex;  
+    /*flex-wrap: wrap;*/
+}
+
+/* Link colors */
+a:link {
+    color: limegreen;
+}
+
+a:visited {
+    color: darkgreen;
+}
